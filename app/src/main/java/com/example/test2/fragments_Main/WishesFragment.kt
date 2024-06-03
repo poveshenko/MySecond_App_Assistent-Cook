@@ -37,17 +37,22 @@ class WishesFragment : Fragment() {
         binding.apply {
             recyclerViewComments.adapter = commentAdapter
 
-            buttonCloseComment.setOnClickListener {
-
-                if (isVisibility) {
+            buttonOpenComment.setOnClickListener {
+                if (!isVisibility) {
                     val layoutParams2 = cardViewComment.layoutParams
                     layoutParams2.height = resources.getDimension(R.dimen.new_height_max).toInt()
                     cardViewComment.layoutParams = layoutParams2
                     buttonSendComment.visibility = View.VISIBLE
-                    buttonCloseComment.visibility = View.INVISIBLE
+                    buttonOpenComment.visibility = View.INVISIBLE
                 }
                 isVisibility = !isVisibility
             }
+
+
+
+
+
+
 
             buttonSendComment.setOnClickListener {
                 val name = editTextName.text.toString()
@@ -66,10 +71,10 @@ class WishesFragment : Fragment() {
                     }
                 }
                 val layoutParams = cardViewComment.layoutParams
-                layoutParams.height = (R.dimen.new_height_min)
+                layoutParams.height = resources.getDimension(R.dimen.new_height_min).toInt()
                 cardViewComment.layoutParams = layoutParams
                 buttonSendComment.visibility = View.INVISIBLE
-                buttonCloseComment.visibility = View.VISIBLE
+                buttonOpenComment.visibility = View.VISIBLE
 
 
             }
