@@ -33,7 +33,7 @@ class WishesFragment : Fragment() {
         binding = FragmentWishesBinding.inflate(inflater, container, false)
         commentDatabase = CommentDatabase.getCommentDatabase(requireContext())
 
-        commentAdapter = CommentAdapter(emptyList())
+        commentAdapter = CommentAdapter(emptyList(), commentDatabase)
         binding.apply {
             recyclerViewComments.adapter = commentAdapter
 
@@ -47,12 +47,6 @@ class WishesFragment : Fragment() {
                 }
                 isVisibility = !isVisibility
             }
-
-
-
-
-
-
 
             buttonSendComment.setOnClickListener {
                 val name = editTextName.text.toString()
@@ -81,4 +75,5 @@ class WishesFragment : Fragment() {
         }
         return binding.root
     }
+
 }
