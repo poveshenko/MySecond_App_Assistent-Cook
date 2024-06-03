@@ -1,0 +1,192 @@
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_background_main_img"
+    android:id="@+id/fragment_container_recipes"
+    tools:context=".fragments_Main.RecipesFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       >
+
+
+        <FrameLayout
+            android:id="@+id/frameLayoutSnacks"
+            android:layout_width="189dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutLunch"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutSalad">
+
+
+            <ImageView
+                android:id="@+id/ButtonSnacks"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/recipe_snacks" />
+
+            <TextView
+                android:id="@+id/textSnacks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="165dp"
+                android:text="Перекус"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch"
+            android:layout_width="189dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup">
+
+
+            <ImageView
+                android:id="@+id/ButtonLunch"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_week_recipe_lunch" />
+
+            <TextView
+                android:id="@+id/textLunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="165dp"
+                android:text="Обеды"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+
+        </FrameLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/green2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="421dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" Блюда на любой вкус "
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutSoup"
+            android:layout_width="189dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="200dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+
+            <ImageView
+                android:id="@+id/ButtonSoup"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/recipe_soup" />
+
+            <TextView
+                android:id="@+id/textSoup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="165dp"
+                android:text="Супы"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutSalad"
+            android:layout_width="189dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <ImageView
+                android:id="@+id/ButtonSalad"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/recipe_salat" />
+
+            <TextView
+                android:id="@+id/textSalad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="165dp"
+                android:text="Салаты"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+
+
+
+
+        </FrameLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

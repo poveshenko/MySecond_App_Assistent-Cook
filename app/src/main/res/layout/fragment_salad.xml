@@ -1,0 +1,304 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_salad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_background_main_img"
+
+    tools:context=".fragments_Recipes_salad.FragmentSalad">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSoup9"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup8"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup6">
+
+
+        <ImageView
+            android:id="@+id/ButtonSoup9"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loundin" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Салат"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSoup8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/frameLayoutSalad7"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup5">
+
+
+        <ImageView
+            android:id="@+id/ButtonSoup8"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loundin" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Салат"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSalad7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/click">
+
+        <ImageView
+            android:id="@+id/ButtonSoup7"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loundin" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Салат"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSoup6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup5"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSalad3">
+
+
+        <ImageView
+            android:id="@+id/ButtonSoup6"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loundin" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Салат"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSoup5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/click"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSalad2">
+
+        <ImageView
+            android:id="@+id/ButtonSoup5"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loundin" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Салат"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/click"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSalad1">
+
+        <ImageView
+            android:id="@+id/ButtonSalad4"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loundin" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Салат"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSalad1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="200dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ButtonSoup1"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drawable_fragments_salad_salat_minut" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Салат Минутка"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSalad2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/frameLayoutSalad1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ButtonSoup2"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drawable_fragments_salad_salad_perec_1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="80dp"
+            android:text="Овощной салат"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutSalad3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/frameLayoutSalad2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ButtonSoup3"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drawable_fragments_salad_pe4enaya_kurica_1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingTop="80dp"
+            android:text="Салат с курицей"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

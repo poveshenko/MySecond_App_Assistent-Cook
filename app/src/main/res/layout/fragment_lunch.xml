@@ -1,0 +1,318 @@
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_background_main_img"
+        android:id="@+id/fragment_lunch"
+
+        tools:context=".fragments_Recipes_lunch.FragmentLunch">
+
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch9"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutLunch8"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutLunch6">
+
+
+            <ImageView
+                android:id="@+id/ButtonSoup9"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_kaba4ki" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="80dp"
+                android:text="Фаршерованые кабачки"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutLunch7"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutLunch5">
+
+
+            <ImageView
+                android:id="@+id/ButtonSoup8"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_pasta_ragu" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="80dp"
+                android:text="Рагу куриное"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutLunch4">
+
+            <ImageView
+                android:id="@+id/ButtonSoup7"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_pasta_frikadelka" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="80dp"
+                android:paddingLeft="8dp"
+                android:text="Паста с тефтелями"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutLunch5"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutLunch3">
+
+
+            <ImageView
+                android:id="@+id/ButtonSoup6"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_baklashan" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingTop="80dp"
+                android:text="Говядина с - Баклажанами"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutLunch4"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutLunch2">
+
+            <ImageView
+                android:id="@+id/ButtonSoup5"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_svinina" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="80dp"
+                android:paddingLeft="20dp"
+                android:text="Жаркое из свинины"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayoutLunch1">
+
+            <ImageView
+                android:id="@+id/ButtonSoup4"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_perec_grib" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="14dp"
+                android:paddingTop="80dp"
+                android:text="Фаршированый перец с грибами"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="200dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ButtonSoup1"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_grechka" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="80dp"
+                android:text="Гречка с тушенкой"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutLunch1"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ButtonSoup2"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="80dp"
+                android:paddingLeft="10dp"
+                android:text="Блинчики с курицей"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutLunch3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintStart_toEndOf="@+id/frameLayoutLunch2"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ButtonSoup3"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:paddingBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawable_fragments_lunch_pasta" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="80dp"
+                android:text="Паста с курицей"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </FrameLayout>
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

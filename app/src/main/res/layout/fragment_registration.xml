@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/registration"
+    android:background="@drawable/drawable_background_main_img"
+    tools:context=".fragments_Wishes.RegistrationFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/green2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="421dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Регистрация"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/NameRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="204dp"
+        android:background="@color/green"
+        android:ems="10"
+        android:hint="Имя"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textColorHint="#555252"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewRegistration" />
+
+    <EditText
+        android:id="@+id/LoginRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/green"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textColorHint="#555252"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/NameRegistration"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/NameRegistration"
+        app:layout_constraintTop_toBottomOf="@+id/NameRegistration" />
+
+    <EditText
+        android:id="@+id/PasswordRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/green"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textColorHint="#555252"
+        app:layout_constraintEnd_toEndOf="@+id/LoginRegistration"
+        app:layout_constraintStart_toStartOf="@+id/LoginRegistration"
+        app:layout_constraintTop_toBottomOf="@+id/LoginRegistration" />
+
+    <Button
+        android:id="@+id/buttonRegistrationDone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/black"
+        android:text="Готово"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PasswordRegistration"
+        app:layout_constraintStart_toStartOf="@+id/PasswordRegistration"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordRegistration" />
+
+    <Button
+        android:id="@+id/buttonRegistrationBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#330909"
+        android:textColor="@color/white"
+        android:text="Назад"
+        app:layout_constraintEnd_toEndOf="@+id/PasswordRegistration"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PasswordRegistration"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordRegistration" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

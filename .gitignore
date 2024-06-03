@@ -15,10 +15,3 @@
 local.properties
 
 
-.idea/
-app/
-build/
-gradle/
-gradlew
-gradlew.bat
-settings.gradle.kts

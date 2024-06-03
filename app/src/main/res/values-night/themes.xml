@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assistent_cook" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="android:windowFullscreen">true</item>
+<!--        <item name="android:windowTranslucentStatus">true</item> // делаем прозрачной верхнюю панель-->
+        <!--        <item name="android:windowFullscreen">true</item> //полный экран( Если провести пальцами сверху экрана, сплывает окошко)-->
+
+    </style>
+</resources>

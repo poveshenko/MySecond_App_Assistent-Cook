@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="new_height_min">30dp</dimen>
+    <dimen name="new_height_max">180dp</dimen>
+</resources>

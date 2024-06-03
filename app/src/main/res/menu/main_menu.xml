@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/itemHome"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/recipes"
+        android:title="@string/itemRecipes"
+        android:icon="@drawable/recipes"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/knowledge"
+        android:title="@string/itemKnowledge"
+        android:icon="@drawable/knowledge"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/video"
+        android:title="@string/itemVideo"
+        android:icon="@drawable/video"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/wishes"
+        android:title="@string/itemWishes"
+        android:icon="@drawable/wishes"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>
