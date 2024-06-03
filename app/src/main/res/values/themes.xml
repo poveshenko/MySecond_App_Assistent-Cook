@@ -3,8 +3,7 @@
     <style name="Base.Theme.Assistent_cook" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="Theme.Assistent_cook" parent="Base.Theme.Assistent_cook" />

@@ -29,7 +29,7 @@ class WishesFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View  {
+    ): View {
         binding = FragmentWishesBinding.inflate(inflater, container, false)
         commentDatabase = CommentDatabase.getCommentDatabase(requireContext())
 
@@ -60,7 +60,6 @@ class WishesFragment : Fragment() {
 
                 val commentModel = CommentModel(name = name, textComment = commentText)
 
-
                 GlobalScope.launch(Dispatchers.IO) {
                     commentDatabase.getDao().insertComment(commentModel)
 
@@ -68,6 +67,9 @@ class WishesFragment : Fragment() {
 
                     withContext(Dispatchers.Main) {
                         commentAdapter.setData(comments)
+                        // Очистка полей editTextName и editTextComment
+                        editTextName.text.clear()
+                        editTextComment.text.clear()
                     }
                 }
                 val layoutParams = cardViewComment.layoutParams
@@ -75,8 +77,6 @@ class WishesFragment : Fragment() {
                 cardViewComment.layoutParams = layoutParams
                 buttonSendComment.visibility = View.INVISIBLE
                 buttonOpenComment.visibility = View.VISIBLE
-
-
             }
         }
         return binding.root

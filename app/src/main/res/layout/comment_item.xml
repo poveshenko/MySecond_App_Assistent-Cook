@@ -11,14 +11,17 @@
         android:layout_weight="1"
         android:padding="8dp" />
 
+
+
+
+
+
     <ImageButton
         android:id="@+id/deleteButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:contentDescription="text"
-        android:src="@drawable/close"
-
-         />
+        android:src="@drawable/close" />
 
     <ImageButton
         android:id="@+id/editButton"

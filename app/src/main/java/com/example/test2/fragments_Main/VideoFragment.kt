@@ -45,6 +45,14 @@ class VideoFragment : Fragment() {
             videoItems.add(videoItemMyVideo2)
 
 
+            val videoItemMyVideo3 = VideoItem(
+                "android.resource://" + requireContext().packageName + "/" + R.raw.video3,
+                "Готовлю на быструю руку",
+                "Мой первый видео роллик"
+            )
+            videoItems.add(videoItemMyVideo3)
+
+
             videoViewPager.adapter = VideoAdapter(videoItems)
 
         }
