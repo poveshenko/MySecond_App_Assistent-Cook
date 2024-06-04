@@ -72,10 +72,10 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.498"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editTextComment" />
+                    app:layout_constraintTop_toBottomOf="@+id/enterTextComment" />
 
                 <EditText
-                    android:id="@+id/editTextName"
+                    android:id="@+id/enterTextName"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_marginStart="8dp"
@@ -87,12 +87,12 @@
                     android:inputType="text"
                     android:textColor="@color/black"
                     android:textColorHint="@color/black_white"
-                    app:layout_constraintBottom_toTopOf="@+id/editTextComment"
+                    app:layout_constraintBottom_toTopOf="@+id/enterTextComment"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <EditText
-                    android:id="@+id/editTextComment"
+                    android:id="@+id/enterTextComment"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginStart="8dp"

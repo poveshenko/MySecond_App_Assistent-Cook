@@ -48,9 +48,11 @@ class WishesFragment : Fragment() {
                 isVisibility = !isVisibility
             }
 
+
+
             buttonSendComment.setOnClickListener {
-                val name = editTextName.text.toString()
-                val commentText = editTextComment.text.toString()
+                val name = enterTextName.text.toString()
+                val commentText = enterTextComment.text.toString()
 
                 val commentModel = CommentModel(name = name, textComment = commentText)
 
@@ -62,8 +64,8 @@ class WishesFragment : Fragment() {
                     withContext(Dispatchers.Main) {
                         commentAdapter.setData(comments)
                         // Очистка полей editTextName и editTextComment
-                        editTextName.text.clear()
-                        editTextComment.text.clear()
+                        enterTextName.text.clear()
+                        enterTextComment.text.clear()
                     }
                 }
                 val layoutParams = cardViewComment.layoutParams
@@ -74,6 +76,18 @@ class WishesFragment : Fragment() {
             }
         }
         return binding.root
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        GlobalScope.launch(Dispatchers.IO) {
+            val comments = commentDatabase.getDao().getAllComments()
+
+            withContext(Dispatchers.Main) {
+                commentAdapter.setData(comments)
+            }
+        }
     }
 
 }
