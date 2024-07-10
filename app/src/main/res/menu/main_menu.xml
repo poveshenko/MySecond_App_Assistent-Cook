@@ -26,12 +26,7 @@
         android:icon="@drawable/video"
         app:showAsAction="ifRoom"
         />
-    <item
-        android:id="@+id/wishes"
-        android:title="@string/itemWishes"
-        android:icon="@drawable/wishes"
-        app:showAsAction="ifRoom"
-        />
+
 
 
 </menu>

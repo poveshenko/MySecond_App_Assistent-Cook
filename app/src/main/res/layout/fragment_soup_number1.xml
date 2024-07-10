@@ -36,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:background="@color/black"
                 android:gravity="center"
-                android:text="Куриный суп с домашней лапшой"
+                android:padding="5dp"
+                android:text="Домашний куриный суп"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 tools:ignore="RtlSymmetry" />
@@ -96,20 +97,21 @@
                 <FrameLayout
                     android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/imageMuka"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:layout_weight="1"
+
                         android:src="@drawable/drawable_ingredients_kurica" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="47dp"
+                        android:paddingTop="45dp"
                         android:text="Куриные окорочка  2 шт"
                         android:textSize="10sp" />
 
@@ -131,8 +133,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="42dp"
-                        android:text="Морковь 1 шт "
+                        android:paddingTop="45dp"
+                        android:text="Морковь \n1 шт "
                         android:textSize="9sp" />
 
                 </FrameLayout>
@@ -153,7 +155,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:paddingTop="40dp"
+                        android:paddingTop="45dp"
                         android:text="Лук 1 шт"
                         android:textSize="10sp" />
 
@@ -272,10 +274,7 @@
                 android:background="@color/black_white" />
 
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/black_white" />
+
 
             <View
                 android:layout_width="match_parent"
@@ -315,7 +314,7 @@
                     android:id="@+id/imageSoupCooking"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_2" />
@@ -329,6 +328,7 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/soup_1_soup_1"
                     tools:ignore="RtlSymmetry" />
@@ -355,7 +355,7 @@
                     android:id="@+id/imageSoupCooking2"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_3" />
@@ -366,10 +366,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
-                    android:layout_marginTop="20dp"
+
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
+                    android:textColor="@color/black"
                     android:text="@string/soup_1_soup_2"
                     tools:ignore="RtlSymmetry" />
 
@@ -395,7 +396,7 @@
                     android:id="@+id/imageSoupCooking3"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_4" />
@@ -410,12 +411,16 @@
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
+                    android:textColor="@color/black"
                     android:text="@string/soup_1_soup_3"
                     tools:ignore="RtlSymmetry" />
 
 
             </FrameLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
             <FrameLayout
                 android:id="@+id/frameLayoutNum22"
                 android:layout_width="match_parent"
@@ -430,7 +435,7 @@
                     android:id="@+id/imageSoupCooking32"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_5" />
@@ -444,13 +449,17 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/soup_1_soup_1"
                     tools:ignore="RtlSymmetry" />
 
 
             </FrameLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
             <FrameLayout
                 android:id="@+id/frameLayoutNum12"
                 android:layout_width="match_parent"
@@ -465,7 +474,7 @@
                     android:id="@+id/imageSoupCooking13"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_6" />
@@ -480,12 +489,16 @@
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
+                    android:textColor="@color/black"
                     android:text="@string/soup_1_soup_5"
                     tools:ignore="RtlSymmetry" />
 
 
             </FrameLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
             <FrameLayout
                 android:id="@+id/frameLayoutNum9"
                 android:layout_width="match_parent"
@@ -500,7 +513,7 @@
                     android:id="@+id/imageSoupCooking8"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_7" />
@@ -514,13 +527,17 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/soup_1_soup_6"
                     tools:ignore="RtlSymmetry" />
 
 
             </FrameLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
             <FrameLayout
                 android:id="@+id/frameLayoutNum01"
                 android:layout_width="match_parent"
@@ -535,7 +552,7 @@
                     android:id="@+id/imageSoupCooking09"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_8" />
@@ -546,16 +563,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
-                    android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/soup_1_soup_7"
                     tools:ignore="RtlSymmetry" />
 
 
             </FrameLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
             <FrameLayout
                 android:id="@+id/frameLayoutNum011"
                 android:layout_width="match_parent"
@@ -570,7 +590,7 @@
                     android:id="@+id/imageSoupCooking099"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_soup_1_soup_1" />
@@ -581,9 +601,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
-                    android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/soup_1_soup_8"
                     tools:ignore="RtlSymmetry" />
@@ -591,7 +611,34 @@
 
             </FrameLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
 
+            <FrameLayout
+                android:id="@+id/frameLayoutNum02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
+
+
+                <TextView
+                    android:id="@+id/textCooking07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Приятного Аппетита"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    tools:ignore="RtlSymmetry" />
+
+
+            </FrameLayout>
 
         </LinearLayout>
 

@@ -1,5 +1,5 @@
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,7 +9,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    tools:context=".fragments_Recipes_lunch.FragmentLunchNumber8">
+    tools:context=".fragments_Recipes_salad.FragmentSaladNumber1">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -24,7 +24,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@color/white"
-
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:background="@color/black"
                 android:gravity="center"
-                android:text="Рагу куриное с солеными огурцами"
+                android:padding="5dp"
+                android:text="Винегрет"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 tools:ignore="RtlSymmetry" />
@@ -49,7 +49,7 @@
                 android:layout_height="350dp"
                 android:importantForAccessibility="no"
                 android:scaleType="fitXY"
-                android:src="@drawable/drawable_fragments_lunch_pasta_ragu" />
+                android:src="@drawable/drawable_fragments_salad_1_salad_5" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -65,6 +65,13 @@
                 android:textStyle="bold"
                 tools:ignore="RtlSymmetry" />
 
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black_white" />
+
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -72,7 +79,7 @@
 
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/textView111"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="30dp"
@@ -89,191 +96,15 @@
                 android:layout_height="1dp"
                 android:background="@color/black_white" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="5dp">
-
-                <FrameLayout
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    >
-
-                    <ImageView
-                        android:id="@+id/imageMuka"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_kurica" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingTop="45dp"
-                        android:text="Мякоть бедра 700 гр"
-                        android:textSize="10sp" />
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
-
-                    <ImageView
-                        android:id="@+id/imageSalt"
-                        android:layout_width="45dp"
-                        android:layout_height="45dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_luk_repchat" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingTop="45dp"
-                        android:text="Лук 1 шт"
-                        android:textSize="10sp" />
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
-
-                    <ImageView
-                        android:id="@+id/imageSahar"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_muka" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingTop="45dp"
-                        android:text="2 ч.л муки"
-                        android:textSize="10sp" />
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="75dp"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
-
-                    <ImageView
-                        android:id="@+id/imageEgg"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_green_goroshek" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:paddingTop="45dp"
-                        android:text="Зеленый горошек 200гр"
-                        android:textSize="9sp" />
-
-                </FrameLayout>
-
-
-                <FrameLayout
-                    android:layout_width="66dp"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
-
-                    <ImageView
-                        android:id="@+id/imageMilk"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_ogurec_soleniy" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingTop="45dp"
-                        android:text=" Огурец 4шт соленый"
-                        android:textSize="9sp" />
-
-                </FrameLayout>
-
-
-
-                <FrameLayout
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
-
-                    <ImageView
-                        android:id="@+id/imageMaslo"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_chesnok" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingTop="45dp"
-                        android:text="2 зуб"
-                        android:textSize="10sp" />
-
-                </FrameLayout>
-
-            </LinearLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/black_white" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/black_white" />
-
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="5dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
 
                 <FrameLayout
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="10dp">
-
-                    <ImageView
-                        android:id="@+id/imageSol"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_salt" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingTop="45dp"
-                        android:text="По вкусу"
-                        android:textSize="10sp" />
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="60dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
@@ -282,54 +113,196 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_smetana" />
+                        android:src="@drawable/drawable_ingredients_svekla" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:paddingTop="45dp"
-                        android:text="Сметана \n2 с.л"
+                        android:text="Свекла \n2 шт"
                         android:textSize="10sp" />
 
                 </FrameLayout>
 
 
                 <FrameLayout
-                    android:layout_width="70dp"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageOrex"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/drawable_ingredients_luk" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Луковица \n1 шт"
+                        android:textSize="10sp" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageGrib"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/drawable_ingredients_morkov" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Морковь \n3 шт"
+                        android:textSize="10sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="65dp"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
-                        android:id="@+id/imageSalt2"
+                        android:id="@+id/imageKinza"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_kurica" />
+                        android:src="@drawable/drawable_ingredients_ogurec_soleniy" />
 
                     <TextView
-                        android:layout_width="50dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:paddingTop="45dp"
-                        android:text="Куриный бульон\n150 мл"
-                        android:textSize="9sp" />
+                        android:text="Огурец соленый 3-4 шт"
+                        android:textSize="10sp" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageBazil"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/drawable_ingredients_kapusta_kvashena9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Капуста квашеная \n150 гр"
+                        android:textSize="10sp" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/imagelukzel"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/drawable_ingredients_kartofel" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingTop="45dp"
+                        android:text="Картошка\n3 шт"
+                        android:textSize="10sp" />
 
                 </FrameLayout>
 
 
             </LinearLayout>
 
-            <View
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/black_white" />
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageBul"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/drawable_ingredients_maslo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingTop="50dp"
+                        android:text="Масло"
+                        android:textSize="10sp" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageSalts"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/drawable_ingredients_salt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingTop="50dp"
+                        android:text="Соль по вкусу "
+                        android:textSize="10sp" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
 
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/black_white" />
+                android:background="@android:color/black" />
+
 
             <View
                 android:layout_width="match_parent"
@@ -359,7 +332,6 @@
                 android:id="@+id/frameLayoutNum1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
@@ -372,19 +344,18 @@
                     android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
-                    android:src="@drawable/drawable_fragments_lunch_pasta_ragu_2" />
-
+                    android:src="@drawable/drawable_fragments_salad_1_salad_2" />
 
                 <TextView
                     android:id="@+id/textCooking"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
-                    android:textColor="@color/black"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:text="@string/lunch_Number8_ragu1"
+                    android:text="@string/salad_1_salad_1"
+                    android:textColor="@color/black"
                     tools:ignore="RtlSymmetry" />
 
 
@@ -412,7 +383,7 @@
                     android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
-                    android:src="@drawable/drawable_fragments_lunch_pasta_ragu_3" />
+                    android:src="@drawable/drawable_fragments_salad_1_salad_3" />
 
 
                 <TextView
@@ -420,12 +391,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
-                    android:textColor="@color/black"
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
-                    android:text="@string/lunch_Number8_ragu2"
+                    android:text="@string/salad_1_salad_2"
+                    android:textColor="@color/black"
                     tools:ignore="RtlSymmetry" />
 
 
@@ -453,7 +424,8 @@
                     android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
-                    android:src="@drawable/drawable_fragments_lunch_pasta_ragu_4" />
+                    android:src="@drawable/drawable_fragments_salad_1_salad_4" />
+
 
                 <TextView
                     android:id="@+id/textCooking3"
@@ -463,91 +435,11 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
-                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
-                    android:text="@string/lunch_Number8_ragu3"
+                    android:text="@string/salad_1_salad_3"
+                    android:textColor="@color/black"
                     tools:ignore="RtlSymmetry" />
 
-
-            </FrameLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@android:color/black" />
-
-            <FrameLayout
-                android:id="@+id/frameLayoutNum4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
-
-
-                <ImageView
-                    android:id="@+id/imageSoupCooking4"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:layout_margin="5dp"
-                    android:importantForAccessibility="no"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/drawable_fragments_lunch_pasta_ragu_5" />
-
-
-                <TextView
-                    android:id="@+id/textCooking4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="200dp"
-                    android:layout_marginTop="20dp"
-                    android:paddingStart="30dp"
-                    android:textColor="@color/black"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:text="@string/lunch_Number8_ragu4"
-                    tools:ignore="RtlSymmetry" />
-
-
-            </FrameLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@android:color/black" />
-
-            <FrameLayout
-                android:id="@+id/frameLayoutNum5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
-
-
-                <ImageView
-                    android:id="@+id/imageSoupCooking5"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:layout_margin="5dp"
-                    android:importantForAccessibility="no"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/drawable_fragments_lunch_pasta_ragu" />
-
-
-                <TextView
-                    android:id="@+id/textCooking5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="200dp"
-                    android:layout_marginTop="20dp"
-                    android:textColor="@color/black"
-                    android:paddingStart="30dp"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp"
-                    android:text="@string/lunch_Number8_ragu5"
-                    tools:ignore="RtlSymmetry" />
 
             </FrameLayout>
 
@@ -556,7 +448,43 @@
                 android:layout_height="1dp"
                 android:background="@color/black" />
 
+            <FrameLayout
+                android:id="@+id/frameLayoutNum22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
 
+
+                <ImageView
+                    android:id="@+id/imageSoupCooking32"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:importantForAccessibility="no"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_salad_1_salad_1" />
+
+
+                <TextView
+                    android:id="@+id/textCooking32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingStart="30dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/salad_1_salad_4"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlSymmetry" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
 
             <FrameLayout
                 android:id="@+id/frameLayoutNum02"
@@ -581,8 +509,6 @@
 
 
             </FrameLayout>
-
-
 
 
         </LinearLayout>

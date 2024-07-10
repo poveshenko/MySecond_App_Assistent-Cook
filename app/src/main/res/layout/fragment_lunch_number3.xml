@@ -223,10 +223,6 @@
                     android:layout_height="1dp"
                     android:background="@color/black_white" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/black_white" />
 
 
                 <LinearLayout
@@ -397,7 +393,7 @@
                         android:id="@+id/imageSoupCooking"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_pasta1" />
@@ -408,9 +404,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="200dp"
-                        android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/black"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number3_pasta_1"
                         tools:ignore="RtlSymmetry" />
@@ -427,7 +423,6 @@
                     android:id="@+id/frameLayoutNum3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
@@ -437,7 +432,7 @@
                         android:id="@+id/imageSoupCooking2"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_pasta2" />
@@ -451,6 +446,7 @@
                         android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/black"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number3_pasta_2"
                         tools:ignore="RtlSymmetry" />
@@ -477,7 +473,7 @@
                         android:id="@+id/imageSoupCooking3"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_pasta3" />
@@ -490,6 +486,7 @@
                         android:layout_marginStart="200dp"
                         android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
+                        android:textColor="@color/black"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number3_pasta_3"
@@ -517,7 +514,7 @@
                         android:id="@+id/imageSoupCooking4"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_pasta4" />
@@ -528,9 +525,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="200dp"
-                        android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/black"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number3_pasta_4"
                         tools:ignore="RtlSymmetry" />
@@ -556,7 +553,7 @@
                         android:id="@+id/imageSoupCooking5"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_pasta5" />
@@ -567,8 +564,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="200dp"
-                        android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
+                        android:textColor="@color/black"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number3_pasta_5"
@@ -594,7 +591,7 @@
                         android:id="@+id/imageSoupCooking6"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_pasta" />
@@ -609,6 +606,7 @@
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
+                        android:textColor="@color/black"
                         android:text="@string/lunch_Number3_pasta_6"
                         tools:ignore="RtlSymmetry" />
 

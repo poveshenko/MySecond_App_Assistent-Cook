@@ -5,22 +5,18 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.example.test2.dataBase.CommentModel
-import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface CommentDao {
-
+    @Insert
+    suspend fun addComment(comment: CommentModel)
 
     @Query("SELECT * FROM comments")
     suspend fun getAllComments(): List<CommentModel>
-    @Insert
-    suspend fun insertComment(commentModel: CommentModel)
 
     @Delete
-    suspend fun deleteComment(commentModel: CommentModel)
+    suspend fun deleteComment(comment: CommentModel)
 
     @Update
-    suspend fun updateComment(commentModel: CommentModel)
-
+    suspend fun updateComment(comment: CommentModel)
 }

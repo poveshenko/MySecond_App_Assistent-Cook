@@ -2,307 +2,384 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_soup"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/drawable_background_main_img"
-    android:id="@+id/fragment_soup"
     tools:context=".fragments_Recipes_Soup.FragmentSoup">
 
 
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup9"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="12dp"
+    <LinearLayout
+        android:id="@+id/cardViewSoupTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
         android:background="@color/black"
-        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup8"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup6">
-
-
-        <ImageView
-            android:id="@+id/ButtonSoup9"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/loundin" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Супы"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup8"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/black"
-        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup7"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup5">
-
-
-        <ImageView
-            android:id="@+id/ButtonSoup8"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/loundin" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Супы"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup7"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup4">
-
-        <ImageView
-            android:id="@+id/ButtonSoup7"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/loundin" />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Супы"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup6"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/black"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
-        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup5"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup3">
-
-
-        <ImageView
-            android:id="@+id/ButtonSoup6"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/loundin" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Супы"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup5"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/black"
-        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup4"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup2">
-
-        <ImageView
-            android:id="@+id/ButtonSoup5"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/loundin" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Супы"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup4"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayoutSoup1">
-
-        <ImageView
-            android:id="@+id/ButtonSoup4"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/loundin" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Супы"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup1"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="200dp"
-        android:background="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/ButtonSoup1"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/drawable_fragments_soup_1_soup_1" />
-
-        <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/buttonBackSoup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Суп куриный"
-            android:textColor="@color/white"
-            android:textSize="17sp" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup2"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/black"
-        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup1"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/ButtonSoup2"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/drawable_fragments_soup_2_soup_6" />
+            android:contentDescription="back"
+            android:scaleType="centerInside"
+            android:src="@drawable/back" />
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Крем-суп"
+            android:layout_marginStart="65dp"
+            android:paddingTop="3dp"
+            android:text=" Первые блюда"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-    </FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+    </LinearLayout>
 
-    <FrameLayout
-        android:id="@+id/frameLayoutSoup3"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/black"
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black_transparent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toEndOf="@+id/frameLayoutSoup2"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewSoupTitle">
 
-        <ImageView
-            android:id="@+id/ButtonSoup3"
-            android:layout_width="120dp"
-            android:layout_height="130dp"
-            android:layout_gravity="center"
-            android:paddingBottom="40dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/loundin" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingTop="80dp"
-            android:text="Супы"
-            android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-    </FrameLayout>
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+                android:elevation="8dp">
+
+                <ImageView
+                    android:id="@+id/ButtonSoup4"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_soup_4_soup_1" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Литовский борщ"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
 
 
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+                android:elevation="8dp">
+
+                <ImageView
+                    android:id="@+id/ButtonSoup5"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_soup_5_soup_1" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Харчо"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup6"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+                android:elevation="8dp">
+
+                <ImageView
+                    android:id="@+id/ButtonSoup6"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_soup_6_soup_1" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Суп из фасоли"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner">
+
+                <ImageView
+                    android:id="@+id/ButtonSoup7"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_soup_7_soup_1" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Венгерский суп"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner">
+
+                <ImageView
+                    android:id="@+id/ButtonSoup3"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_soup_3_soup_1" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Азиатский суп"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner">
+
+                <ImageView
+                    android:id="@+id/ButtonSoup2"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/soup_grib" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Крем-суп"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+        </LinearLayout>
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner">
+
+                <ImageView
+                    android:id="@+id/ButtonSoup1"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_soup_1_soup_1" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Суп куриный"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner">
 
 
+                <ImageView
+                    android:id="@+id/ButtonSoup9"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rawable_fragments_soup_9_soup_1" />
 
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Суп Огуречный"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutSoup8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner">
+
+
+                <ImageView
+                    android:id="@+id/ButtonSoup8"
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="30dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/drawable_fragments_soup_8_soup_1" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="170dp"
+                    android:text="Гаспачо"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,6 +12,7 @@ import com.example.test2.fragments_Recipes_salad.FragmentSaladNumber3
 import com.example.test2.fragments_Recipes_salad.FragmentSaladNumber4
 import com.example.test2.R
 import com.example.test2.databinding.FragmentSaladBinding
+import com.example.test2.fragments_Main.RecipesFragment
 
 
 class FragmentSalad : Fragment() {
@@ -25,31 +26,78 @@ class FragmentSalad : Fragment() {
         binding = FragmentSaladBinding.inflate(inflater, container, false)
 
         binding.apply {
+
+            buttonBackSalad.setOnClickListener {
+                val fragment = RecipesFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.container, fragment)
+                transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
+                transaction.commit()
+            }
+
             frameLayoutSalad1.setOnClickListener {
                 val fragment = FragmentSaladNumber1()
                 val transaction = requireActivity().supportFragmentManager.beginTransaction()
-                transaction.replace(R.id.fragment_salad, fragment)
+                transaction.replace(R.id.container, fragment)
                 transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
                 transaction.commit()
             }
             frameLayoutSalad2.setOnClickListener {
                 val fragment = FragmentSaladNumber2()
                 val transaction = requireActivity().supportFragmentManager.beginTransaction()
-                transaction.replace(R.id.fragment_salad, fragment)
+                transaction.replace(R.id.container, fragment)
                 transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
                 transaction.commit()
             }
             frameLayoutSalad3.setOnClickListener {
                 val fragment = FragmentSaladNumber3()
                 val transaction = requireActivity().supportFragmentManager.beginTransaction()
-                transaction.replace(R.id.fragment_salad, fragment)
+                transaction.replace(R.id.container, fragment)
                 transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
                 transaction.commit()
             }
-            click.setOnClickListener {
+            frameLayoutSalad4.setOnClickListener {
                 val fragment = FragmentSaladNumber4()
                 val transaction = requireActivity().supportFragmentManager.beginTransaction()
-                transaction.replace(R.id.fragment_salad, fragment)
+                transaction.replace(R.id.container, fragment)
+                transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
+                transaction.commit()
+            }
+            frameLayoutSalad5.setOnClickListener {
+                val fragment = FragmentSaladNumber5()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.container, fragment)
+                transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
+                transaction.commit()
+            }
+
+            frameLayoutSalad6.setOnClickListener {
+                val fragment = FragmentSaladNumber6()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.container, fragment)
+                transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
+                transaction.commit()
+            }
+
+            frameLayoutSalad7.setOnClickListener {
+                val fragment = FragmentSaladNumber7()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.container, fragment)
+                transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
+                transaction.commit()
+            }
+
+            frameLayoutSalad8.setOnClickListener {
+                val fragment = FragmentSaladNumber8()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.container, fragment)
+                transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
+                transaction.commit()
+            }
+            frameLayoutSalad9.setOnClickListener {
+                val fragment = FragmentSaladNumber9()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.container, fragment)
                 transaction.addToBackStack(null) // Добавляем этот фрагмент в back stack
                 transaction.commit()
             }

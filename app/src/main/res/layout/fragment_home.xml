@@ -14,8 +14,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardViewHome"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="1dp"
+        android:layout_height="wrap_content"
         android:backgroundTint="@color/green2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -29,12 +28,8 @@
             android:gravity="center"
             android:text="Мои рецепты на неделю"
             android:textColor="@color/black"
-            android:textSize="24dp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <Button

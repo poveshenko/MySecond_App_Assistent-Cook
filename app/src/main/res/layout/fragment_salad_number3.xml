@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/black"
                 android:gravity="center"
+                android:padding="5dp"
                 android:text="Салат из печеной курицы с оливками и горчичной заправкой"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -111,7 +112,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="47dp"
+                        android:paddingTop="45dp"
                         android:text="Запеченая куриное филе 200гр"
                         android:textSize="10sp" />
 
@@ -133,7 +134,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="42dp"
+                        android:paddingTop="45dp"
                         android:text="Сельдерей \n1 шт "
                         android:textSize="9sp" />
 
@@ -155,7 +156,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:paddingTop="40dp"
+                        android:paddingTop="45dp"
                         android:text="Соль по вкусу"
                         android:textSize="10sp" />
 
@@ -218,8 +219,9 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="78dp"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
 
                 <FrameLayout
                     android:layout_width="60dp"
@@ -260,7 +262,7 @@
                         android:layout_width="50dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:paddingTop="49dp"
+                        android:paddingTop="45dp"
                         android:text="Сыр 20 гр"
                         android:textSize="10sp" />
 
@@ -291,18 +293,17 @@
 
                 <FrameLayout
                     android:layout_width="60dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
                         android:id="@+id/imageMaslo4"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_weight="1"
                         android:src="@drawable/drawable_ingredients_gor4ica" />
 
                     <TextView
-                        android:layout_width="53dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:paddingTop="45dp"
@@ -313,22 +314,21 @@
 
                 <FrameLayout
                     android:layout_width="60dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
                         android:id="@+id/imageMaslo22"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_weight="1"
                         android:src="@drawable/drawable_ingredients_limon_sok" />
 
                     <TextView
-                        android:layout_width="53dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:paddingTop="45dp"
-                        android:text="Лимонный сок 1 с.л"
+                        android:text="Лимонный сок\n1 с.л"
                         android:textSize="10sp" />
 
                 </FrameLayout>
@@ -386,6 +386,7 @@
                     android:layout_width="200dp"
                     android:layout_height="200dp"
                     android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_salad_pe4enaya_kurica_2" />
@@ -400,6 +401,7 @@
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
+                    android:textColor="@color/black"
                     android:text="@string/salad_salad_pe4enaya_kurica_1"
                     tools:ignore="RtlSymmetry" />
 
@@ -425,7 +427,7 @@
                     android:id="@+id/imageSoupCooking2"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_salad_pe4enaya_kurica_3" />
@@ -439,6 +441,7 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/salad_salad_pe4enaya_kurica_2"
                     tools:ignore="RtlSymmetry" />
@@ -455,7 +458,6 @@
                 android:id="@+id/frameLayoutNum2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
@@ -465,7 +467,7 @@
                     android:id="@+id/imageSoupCooking3"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_salad_pe4enaya_kurica_4" />
@@ -479,13 +481,17 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/salad_salad_pe4enaya_kurica_4"
                     tools:ignore="RtlSymmetry" />
 
 
             </FrameLayout>
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
             <FrameLayout
                 android:id="@+id/frameLayoutNum22"
                 android:layout_width="match_parent"
@@ -500,7 +506,7 @@
                     android:id="@+id/imageSoupCooking32"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_salad_pe4enaya_kurica_1" />
@@ -514,6 +520,7 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/salad_salad_pe4enaya_kurica_3"
                     tools:ignore="RtlSymmetry" />
@@ -521,6 +528,36 @@
 
             </FrameLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+
+
+            <FrameLayout
+                android:id="@+id/frameLayoutNum02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
+
+
+                <TextView
+                    android:id="@+id/textCooking07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Приятного Аппетита"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    tools:ignore="RtlSymmetry" />
+
+
+            </FrameLayout>
 
 
         </LinearLayout>

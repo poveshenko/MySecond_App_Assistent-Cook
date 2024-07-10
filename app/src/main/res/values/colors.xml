@@ -2,11 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="white_transparent">#80FFFFFF</color>
     <color name="green">#80DD84</color>
     <color name="green2">#8080DD84</color>
     <color name="red">#AA1621</color>
     <color name="black_white">#C2BFBF</color>
     <color name="yellow">#FF5722</color>
     <color name="grey">#7E7978</color>
+    <color name="grey_transparent">#807E7978</color>
     <color name="black_white2">#3C3C3C</color>
+    <color name="black_transparent">#CC020202</color>
+
+
+    <color name="greenBackground">#80DD84</color>
+
 </resources>

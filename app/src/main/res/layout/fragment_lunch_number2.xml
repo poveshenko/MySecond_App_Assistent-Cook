@@ -554,7 +554,7 @@
                         android:id="@+id/imageSoupCooking"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_1" />
@@ -565,10 +565,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="200dp"
-                        android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
+                        android:textColor="@color/black"
                         android:text="@string/lunch_Number2_blinchik_kurica_1"
                         tools:ignore="RtlSymmetry" />
 
@@ -594,7 +594,7 @@
                         android:id="@+id/imageSoupCooking2"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_2" />
@@ -608,6 +608,7 @@
                         android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/black"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number2_blinchik_kurica_2"
                         tools:ignore="RtlSymmetry" />
@@ -634,7 +635,7 @@
                         android:id="@+id/imageSoupCooking3"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_5" />
@@ -649,6 +650,7 @@
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
+                        android:textColor="@color/black"
                         android:text="@string/lunch_Number2_blinchik_kurica_3"
                         tools:ignore="RtlSymmetry" />
 
@@ -674,7 +676,7 @@
                         android:id="@+id/imageSoupCooking4"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_4" />
@@ -689,6 +691,7 @@
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
+                        android:textColor="@color/black"
                         android:text="@string/lunch_Number2_blinchik_kurica_4"
                         tools:ignore="RtlSymmetry" />
 
@@ -713,7 +716,7 @@
                         android:id="@+id/imageSoupCooking5"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_3" />
@@ -727,6 +730,7 @@
                         android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/black"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number2_blinchik_kurica_5"
                         tools:ignore="RtlSymmetry" />
@@ -751,7 +755,7 @@
                         android:id="@+id/imageSoupCooking6"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_6" />
@@ -764,6 +768,7 @@
                         android:layout_marginStart="200dp"
                         android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
+                        android:textColor="@color/black"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number2_blinchik_kurica_6"
@@ -789,7 +794,7 @@
                         android:id="@+id/imageSoupCooking7"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_7" />
@@ -804,6 +809,7 @@
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
+                        android:textColor="@color/black"
                         android:text="@string/lunch_Number2_blinchik_kurica_7"
                         tools:ignore="RtlSymmetry" />
 
@@ -829,7 +835,7 @@
                         android:id="@+id/imageSoupCooking8"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica_8" />
@@ -843,6 +849,7 @@
                         android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/black"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number2_blinchik_kurica_8"
                         tools:ignore="RtlSymmetry" />
@@ -867,7 +874,7 @@
                         android:id="@+id/imageSoupCooking9"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_margin="5dp"
                         android:importantForAccessibility="no"
                         android:scaleType="fitXY"
                         android:src="@drawable/drawable_fragments_lunch_blinchiki_kurica" />
@@ -881,6 +888,7 @@
                         android:layout_marginTop="20dp"
                         android:paddingStart="30dp"
                         android:paddingTop="5dp"
+                        android:textColor="@color/black"
                         android:paddingBottom="5dp"
                         android:text="@string/lunch_Number2_blinchik_kurica_9"
                         tools:ignore="RtlSymmetry" />

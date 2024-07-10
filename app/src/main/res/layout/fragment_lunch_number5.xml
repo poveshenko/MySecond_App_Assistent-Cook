@@ -78,12 +78,12 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <FrameLayout
                     android:layout_width="60dp"
-                    android:layout_height="63dp"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
@@ -97,7 +97,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="37dp"
+                        android:paddingTop="45dp"
                         android:text="Свинина 700гр"
                         android:textSize="10sp" />
 
@@ -105,7 +105,7 @@
 
                 <FrameLayout
                     android:layout_width="60dp"
-                    android:layout_height="63dp"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
@@ -119,7 +119,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="37dp"
+                        android:paddingTop="45dp"
                         android:text="Честнок  - 2 зуб"
                         android:textSize="10sp" />
 
@@ -128,7 +128,7 @@
 
                 <FrameLayout
                     android:layout_width="60dp"
-                    android:layout_height="63dp"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
@@ -136,21 +136,21 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_priprava" />
+                        android:src="@drawable/drawable_ingredients_provianskie_travi" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="37dp"
-                        android:text="Прован-е травы 1ч"
+                        android:paddingTop="45dp"
+                        android:text="Провианские травы\n1 ч.л"
                         android:textSize="10sp" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="60dp"
-                    android:layout_height="63dp"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
@@ -158,13 +158,13 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_weight="1"
-                        android:src="@drawable/drawable_ingredients_peper_black" />
+                        android:src="@drawable/drawable_ingredients_perec_cherniy" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="37dp"
+                        android:paddingTop="45dp"
                         android:text="По вкусу"
                         android:textSize="10sp" />
 
@@ -186,7 +186,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:paddingTop="37dp"
+                        android:paddingTop="45dp"
                         android:text="По вкусу"
                         android:textSize="10sp" />
 
@@ -208,7 +208,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="37dp"
+                        android:paddingTop="45dp"
                         android:text="Лук 1 шт"
                         android:textSize="10sp" />
 
@@ -229,12 +229,12 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <FrameLayout
                     android:layout_width="60dp"
-                    android:layout_height="63dp"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="10dp">
 
                     <ImageView
@@ -248,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingTop="37dp"
+                        android:paddingTop="45dp"
                         android:text="Томаты в соку 400г"
                         android:textSize="10sp" />
 
@@ -257,16 +257,9 @@
 
             </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/black_white" />
 
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/black_white" />
+
 
             <View
                 android:layout_width="match_parent"
@@ -306,7 +299,7 @@
                     android:id="@+id/imageSoupCooking"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_lunch_svinina1" />
@@ -317,9 +310,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
-                    android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/lunch_Number5_svinina1"
                     tools:ignore="RtlSymmetry" />
@@ -346,7 +339,7 @@
                     android:id="@+id/imageSoupCooking2"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_lunch_svinina2" />
@@ -358,6 +351,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
@@ -386,7 +380,7 @@
                     android:id="@+id/imageSoupCooking3"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_lunch_svinina3" />
@@ -399,6 +393,7 @@
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
+                    android:textColor="@color/black"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:text="@string/lunch_Number5_svinina3"
@@ -426,7 +421,7 @@
                     android:id="@+id/imageSoupCooking4"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_lunch_svinina4" />
@@ -440,6 +435,7 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/lunch_Number5_svinina4"
                     tools:ignore="RtlSymmetry" />
@@ -465,7 +461,7 @@
                     android:id="@+id/imageSoupCooking5"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_lunch_svinina5" />
@@ -478,6 +474,7 @@
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
+                    android:textColor="@color/black"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:text="@string/lunch_Number5_svinina5"
@@ -503,7 +500,7 @@
                     android:id="@+id/imageSoupCooking6"
                     android:layout_width="200dp"
                     android:layout_height="200dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="5dp"
                     android:importantForAccessibility="no"
                     android:scaleType="fitXY"
                     android:src="@drawable/drawable_fragments_lunch_svinina" />
@@ -517,6 +514,7 @@
                     android:layout_marginTop="20dp"
                     android:paddingStart="30dp"
                     android:paddingTop="5dp"
+                    android:textColor="@color/black"
                     android:paddingBottom="5dp"
                     android:text="@string/lunch_Number5_svinina6"
                     tools:ignore="RtlSymmetry" />
@@ -524,7 +522,36 @@
 
             </FrameLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
 
+
+
+            <FrameLayout
+                android:id="@+id/frameLayoutNum02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutBreakfast">
+
+
+                <TextView
+                    android:id="@+id/textCooking07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Приятного Аппетита"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    tools:ignore="RtlSymmetry" />
+
+
+            </FrameLayout>
 
 
 

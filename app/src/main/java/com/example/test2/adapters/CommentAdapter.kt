@@ -8,16 +8,18 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.test2.R
-import com.example.test2.dataBase.CommentDatabase
+
+
 import com.example.test2.dataBase.CommentModel
+import com.example.test2.dataBase.FirebaseService
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class CommentAdapter(
     private var comments: List<CommentModel>,
-    private val commentDatabase: CommentDatabase
+    private val firebaseService: FirebaseService
 ) : RecyclerView.Adapter<CommentAdapter.CommentViewHolder>() {
     private var editableComment: CommentModel? = null
     private var editablePosition: Int? = null
@@ -49,12 +51,11 @@ class CommentAdapter(
         fun bind(comment: CommentModel) {
             itemView.findViewById<TextView>(R.id.textNameComment).text = comment.name
             editTextComment.setText(comment.textComment)
-
             editTextComment.isEnabled = false
 
             deleteButton.setOnClickListener {
-                GlobalScope.launch(Dispatchers.IO) {
-                    commentDatabase.getDao().deleteComment(comment)
+                CoroutineScope(Dispatchers.IO).launch {
+                    firebaseService.deleteComment(comment)
                     updateComments()
                 }
             }
@@ -69,11 +70,13 @@ class CommentAdapter(
 
             saveButton.setOnClickListener {
                 val newComment = editTextComment.text.toString()
-                GlobalScope.launch(Dispatchers.IO) {
-                    commentDatabase.getDao().updateComment(comment.copy(textComment = newComment))
+                CoroutineScope(Dispatchers.IO).launch {
+                    firebaseService.updateComment(comment.copy(textComment = newComment))
                     updateComments()
-                    editTextComment.isEnabled = false
-                    saveButton.isEnabled = false
+                    withContext(Dispatchers.Main) {
+                        editTextComment.isEnabled = false
+                        saveButton.isEnabled = false
+                    }
                 }
             }
         }
@@ -81,8 +84,8 @@ class CommentAdapter(
         fun bindEditable(comment: CommentModel) {
             saveButton.setOnClickListener {
                 val newComment = editTextComment.text.toString()
-                GlobalScope.launch(Dispatchers.IO) {
-                    commentDatabase.getDao().updateComment(comment.copy(textComment = newComment))
+                CoroutineScope(Dispatchers.IO).launch {
+                    firebaseService.updateComment(comment.copy(textComment = newComment))
                     updateComments()
                 }
             }
@@ -90,8 +93,8 @@ class CommentAdapter(
     }
 
     private fun updateComments() {
-        GlobalScope.launch(Dispatchers.IO) {
-            val updatedComments = commentDatabase.getDao().getAllComments()
+        CoroutineScope(Dispatchers.IO).launch {
+            val updatedComments = firebaseService.getComments()
             withContext(Dispatchers.Main) {
                 setData(updatedComments)
                 editableComment = null
@@ -104,4 +107,5 @@ class CommentAdapter(
         this.comments = comments
         notifyDataSetChanged()
     }
+
 }
